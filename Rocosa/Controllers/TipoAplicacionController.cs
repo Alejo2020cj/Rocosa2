@@ -4,33 +4,33 @@ using Rocosa.Models;
 
 namespace Rocosa.Controllers
 {
-    public class CategoriaController : Controller
+    public class TipoAplicacionController : Controller
     {
         private readonly ApplicationDbContext _db;
-            public CategoriaController(ApplicationDbContext db)
+        public TipoAplicacionController(ApplicationDbContext db)
         {
             _db = db;
         }
         public IActionResult Index()
         {
-            IEnumerable<Categoria> Lista = _db.Categoria;
-            return View(Lista);
+            IEnumerable<TipoAplicacion> Lista = _db.TipoAplicacion;
+            return View();
         }
 
         [HttpGet]
         public IActionResult Crear()
         {
-          
+
             return View();
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Crear(Categoria categoria )
+        public IActionResult Crear(TipoAplicacion tipoAplicacion)
         {
-            _db.Categoria.Add(categoria);
+            _db.TipoAplicacion.Add(tipoAplicacion);
             _db.SaveChanges();
-            
+
 
             return RedirectToAction(nameof(Index));
         }

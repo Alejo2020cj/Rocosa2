@@ -2,11 +2,10 @@
 
 namespace Rocosa.Models
 {
-    public class Categoria
+    public class TipoAplicacion
     {
         [Key]
         public int Id { get; set; }
-        public string? NombreCategoria { get; set; }
-        public int MostrarOrden { get; set; }
+        public string Nombre { get; set; }
     }
 }
