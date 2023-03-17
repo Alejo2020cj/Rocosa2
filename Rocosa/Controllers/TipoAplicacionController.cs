@@ -14,7 +14,7 @@ namespace Rocosa.Controllers
         public IActionResult Index()
         {
             IEnumerable<TipoAplicacion> Lista = _db.TipoAplicacion;
-            return View();
+            return View(Lista);
         }
 
         [HttpGet]
