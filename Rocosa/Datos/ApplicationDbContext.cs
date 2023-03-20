@@ -12,6 +12,7 @@ namespace Rocosa.Datos
         public DbSet<Categoria> Categoria { get; set; }
         public DbSet<TipoAplicacion> TipoAplicacion { get; set; }
 
+        public DbSet<Producto> Producto { get; set; }
     }
     
     

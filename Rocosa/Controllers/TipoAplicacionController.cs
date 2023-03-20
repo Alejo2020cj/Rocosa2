@@ -34,5 +34,73 @@ namespace Rocosa.Controllers
 
             return RedirectToAction(nameof(Index));
         }
+
+        [HttpGet]
+        public IActionResult Editar(int? Id)
+        {
+            if (Id == null || Id == 0)
+            {
+                return NotFound();
+
+            }
+            var obj = _db.TipoAplicacion.Find(Id);
+            if (obj == null)
+            {
+
+                return NotFound();
+            }
+
+            return View(obj);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Editar(TipoAplicacion tipoAplicacion)
+        {
+            if (ModelState.IsValid)
+            {
+                _db.TipoAplicacion.Update(tipoAplicacion);
+                _db.SaveChanges();
+                return RedirectToAction(nameof(Index));
+            }
+
+
+
+            return View();
+        }
+
+        public IActionResult Eliminar(int? Id)
+        {
+            if (Id == null || Id == 0)
+            {
+                return NotFound();
+
+            }
+            var obj = _db.TipoAplicacion.Find(Id);
+            if (obj == null)
+            {
+
+                return NotFound();
+            }
+
+            return View(obj);
+        }
+
+
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+
+        public IActionResult Eliminar(TipoAplicacion tipoAplicacion)
+        {
+            if (tipoAplicacion == null)
+            {
+                return NotFound();
+            }
+            _db.TipoAplicacion.Remove(tipoAplicacion);
+            _db.SaveChanges();
+            return RedirectToAction(nameof(Index));
+
+        }
     }
 }

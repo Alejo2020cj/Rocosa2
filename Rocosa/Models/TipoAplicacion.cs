@@ -6,6 +6,8 @@ namespace Rocosa.Models
     {
         [Key]
         public int Id { get; set; }
+
+        [Required(ErrorMessage ="Ingrese el Nombre")]
         public string Nombre { get; set; }
     }
 }
