@@ -9,77 +9,77 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Rocosa
 build_property.RootNamespace = Rocosa
-build_property.ProjectDir = C:\Users\Manolete\source\repos\Rocosa2\Rocosa\
+build_property.ProjectDir = C:\Users\067784661\Source\Repos\Rocosa2\Rocosa\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Manolete\source\repos\Rocosa2\Rocosa
+build_property.MSBuildProjectDirectory = C:\Users\067784661\Source\Repos\Rocosa2\Rocosa
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Manolete/source/repos/Rocosa2/Rocosa/Views/Categoria/Crear.cshtml]
+[C:/Users/067784661/Source/Repos/Rocosa2/Rocosa/Views/Categoria/Crear.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXENyZWFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Manolete/source/repos/Rocosa2/Rocosa/Views/Categoria/Editar.cshtml]
+[C:/Users/067784661/Source/Repos/Rocosa2/Rocosa/Views/Categoria/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXEVkaXRhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Manolete/source/repos/Rocosa2/Rocosa/Views/Categoria/Eliminar.cshtml]
+[C:/Users/067784661/Source/Repos/Rocosa2/Rocosa/Views/Categoria/Eliminar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXEVsaW1pbmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Manolete/source/repos/Rocosa2/Rocosa/Views/Categoria/Index.cshtml]
+[C:/Users/067784661/Source/Repos/Rocosa2/Rocosa/Views/Categoria/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Manolete/source/repos/Rocosa2/Rocosa/Views/Home/Index.cshtml]
+[C:/Users/067784661/Source/Repos/Rocosa2/Rocosa/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Manolete/source/repos/Rocosa2/Rocosa/Views/Home/Privacy.cshtml]
+[C:/Users/067784661/Source/Repos/Rocosa2/Rocosa/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Manolete/source/repos/Rocosa2/Rocosa/Views/Producto/Index.cshtml]
+[C:/Users/067784661/Source/Repos/Rocosa2/Rocosa/Views/Producto/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Manolete/source/repos/Rocosa2/Rocosa/Views/Producto/Upsert.cshtml]
+[C:/Users/067784661/Source/Repos/Rocosa2/Rocosa/Views/Producto/Upsert.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cVXBzZXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Manolete/source/repos/Rocosa2/Rocosa/Views/Shared/Error.cshtml]
+[C:/Users/067784661/Source/Repos/Rocosa2/Rocosa/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Manolete/source/repos/Rocosa2/Rocosa/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/067784661/Source/Repos/Rocosa2/Rocosa/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Manolete/source/repos/Rocosa2/Rocosa/Views/TipoAplicacion/Crear.cshtml]
+[C:/Users/067784661/Source/Repos/Rocosa2/Rocosa/Views/TipoAplicacion/Crear.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0FwbGljYWNpb25cQ3JlYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Manolete/source/repos/Rocosa2/Rocosa/Views/TipoAplicacion/Editar.cshtml]
+[C:/Users/067784661/Source/Repos/Rocosa2/Rocosa/Views/TipoAplicacion/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0FwbGljYWNpb25cRWRpdGFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Manolete/source/repos/Rocosa2/Rocosa/Views/TipoAplicacion/Eliminar.cshtml]
+[C:/Users/067784661/Source/Repos/Rocosa2/Rocosa/Views/TipoAplicacion/Eliminar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0FwbGljYWNpb25cRWxpbWluYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Manolete/source/repos/Rocosa2/Rocosa/Views/TipoAplicacion/Index.cshtml]
+[C:/Users/067784661/Source/Repos/Rocosa2/Rocosa/Views/TipoAplicacion/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0FwbGljYWNpb25cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Manolete/source/repos/Rocosa2/Rocosa/Views/_ViewImports.cshtml]
+[C:/Users/067784661/Source/Repos/Rocosa2/Rocosa/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Manolete/source/repos/Rocosa2/Rocosa/Views/_ViewStart.cshtml]
+[C:/Users/067784661/Source/Repos/Rocosa2/Rocosa/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Manolete/source/repos/Rocosa2/Rocosa/Views/Shared/_Layout.cshtml]
+[C:/Users/067784661/Source/Repos/Rocosa2/Rocosa/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-3hncubtym1

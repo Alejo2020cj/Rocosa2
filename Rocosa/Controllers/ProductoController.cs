@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Rocosa.Datos;
@@ -10,10 +11,13 @@ namespace Rocosa.Controllers
     public class ProductoController : Controller
     {
         private readonly ApplicationDbContext _db;
+        //Para pasar imagenes
+        private readonly IWebHostEnvironment _webHostEnvironment;
 
-        public ProductoController(ApplicationDbContext db)
+        public ProductoController(ApplicationDbContext db, IWebHostEnvironment webHostEnvironment)
         {
             _db = db;
+            _webHostEnvironment = webHostEnvironment;
         }
     
         public IActionResult Index()
@@ -70,6 +74,18 @@ namespace Rocosa.Controllers
         }
 
 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Upsert(ProductoVM productoVM)
+        {
+            if (ModelState.IsValid)
+            {
+                var files = HttpContext.Request.Form.Files;
+            
+            
+            }
+        
+        }
 
     }
 }

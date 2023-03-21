@@ -20,16 +20,16 @@ namespace Rocosa.Models
         [Required(ErrorMessage = "El precio del producto es requerido")]
         public string Precio { get; set; }
 
-        public string ImageUrl { get; set; }
+        public string? ImageUrl { get; set; }
 
         //Foreing key
         public int CategoriaId { get; set; }
         [ForeignKey("CategoriaId")]
-        public virtual Categoria Categoria { get; set;}
+        public virtual Categoria? Categoria { get; set;}
 
         public int TipoAplicacionId { get; set; }
         [ForeignKey("TipoAplicacionId")]
-        public virtual TipoAplicacion TipoAplicacion { get; set; }
+        public virtual TipoAplicacion? TipoAplicacion { get; set; }
 
     }
 }
