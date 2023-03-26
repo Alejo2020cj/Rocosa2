@@ -1,5 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Rocosa.Datos;
 using Rocosa.Models;
+using Rocosa.Models.ViewModels;
 using System.Diagnostics;
 
 namespace Rocosa.Controllers
@@ -7,15 +10,23 @@ namespace Rocosa.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly ApplicationDbContext _db;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, ApplicationDbContext db)
         {
             _logger = logger;
+            _db = db;
         }
 
         public IActionResult Index()
         {
-            return View();
+            HomeVM HomeVM    = new HomeVM()
+            { 
+              Productos= _db.Producto.Include(c=>c.Categoria).Include(t=>t.TipoAplicacion),
+              Categorias = _db.Categoria
+            
+            };   
+            return View(HomeVM);
         }
 
         public IActionResult Privacy()

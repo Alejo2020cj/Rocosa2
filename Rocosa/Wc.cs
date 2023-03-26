@@ -2,6 +2,6 @@
 {
     public class Wc
     {
-        public static string ImegenRuta = @"\Imagenes\Producto";
+        public static string ImegenRuta = @"\Imagenes\Producto\";
     }
 }
